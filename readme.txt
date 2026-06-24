@@ -5,13 +5,13 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.1
+Stable tag: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Velvetine is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Velvetine provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.
+Velvetine is a modern WordPress block theme designed for fashion, lifestyle, beauty, and magazine websites. Featuring full site editing, responsive layouts, and elegant typography, it provides everything you need to create a visually stunning publication that puts your content in the spotlight.
 
 == Installation ==
 
@@ -54,12 +54,12 @@ Source: https://pxhere.com/en/photo/604504
 
 Fonts credit and license:
 
-Font: Inter,
-Copyright 2020 The Inter Project Authors
+Font: Bodoni Moda,
+Copyright 2020 The Bodoni Moda Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/rsms/inter
+Source: https://github.com/indestructible-type/Bodoni
 
-Font: Instrument Serif,
-Copyright 2022 The Instrument Serif Project Authors
+Font: Jost,
+Copyright 2020 The Jost Project Authors
 License: http://scripts.sil.org/OFL
-Source: https://github.com/Instrument/instrument-serif
+Source: https://github.com/indestructible-type

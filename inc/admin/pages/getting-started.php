@@ -3,7 +3,7 @@
 		<img src="<?php echo esc_url( VELVETINE_URL . 'inc/admin/images/getting-started-header.png' ); ?>" />
 	</figure>
 	<h3><?php esc_html_e( 'Welcome to Velvetine', 'velvetine' ); ?></h3>
-	<p><?php esc_html_e( 'Velvetine is a modern, lightweight WordPress block theme designed for creators who want to build content-driven websites with ease. With full site editing and an intuitive drag-and-drop experience, you can customize every part of your site—including headers, footers, and templates—without coding. Fast, responsive, and performance-optimized, Velvetine provides the flexibility to create blogs, magazines, portfolios, and professional websites for any niche with complete creative freedom.', 'velvetine' ); ?></p>
+	<p><?php esc_html_e( 'Velvetine is a modern WordPress block theme designed for fashion, lifestyle, beauty, and magazine websites. Featuring full site editing, responsive layouts, and elegant typography, it provides everything you need to create a visually stunning publication that puts your content in the spotlight.', 'velvetine' ); ?></p>
 	<ul class="feature-holder">
 		<li><?php esc_html_e( 'Pre-built starter homepage template', 'velvetine' ); ?></li>
 		<li><?php esc_html_e( 'Pre-built customizable sections', 'velvetine' ); ?></li>
