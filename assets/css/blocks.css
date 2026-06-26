@@ -1,0 +1,146 @@
+a,
+button,
+img,
+.wp-block-group,
+.wp-block-columns,
+.wp-block-column {
+  transition: all ease 0.23s;
+}
+/* Navigation */
+.is-style-velvetine-navigation-primary-hover
+  a.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--primary) !important;
+}
+.is-style-velvetine-navigation-secondary-hover
+  a.wp-block-navigation-item__content:hover {
+  color: var(--wp--preset--color--secondary) !important;
+}
+/* Social Buttons */
+.is-style-velvetine-social-icons-border {
+  & li {
+    padding: 8px;
+    border: 1px solid currentColor;
+  }
+}
+/* Categories */
+.is-style-velvetine-categories-primary {
+  & a {
+    padding: 4px 8px;
+    background-color: var(--wp--preset--color--primary);
+  }
+}
+.is-style-velvetine-categories-primary {
+  & a:hover {
+    background-color: var(--wp--preset--color--secondary);
+  }
+}
+.is-style-velvetine-categories-secondary {
+  & a {
+    padding: 4px 8px;
+    background-color: var(--wp--preset--color--secondary);
+  }
+}
+.is-style-velvetine-categories-secondary {
+  & a:hover {
+    background-color: var(--wp--preset--color--primary);
+  }
+}
+
+/* Cover */
+.is-style-velvetine-cover-zoom-in:hover,
+.is-style-velvetine-image-zoom-in,
+.is-style-velvetine-image-zoom-out {
+  overflow: hidden;
+  & img.wp-block-cover__image-background,
+  img:hover {
+    transform: scale(1.1);
+  }
+}
+.is-style-velvetine-cover-zoom-out,
+.is-style-velvetine-image-zoom-out {
+  & img.wp-block-cover__image-background,
+  img {
+    overflow: hidden;
+    transform: scale(1.1);
+  }
+}
+.is-style-velvetine-image-zoom-out,
+.is-style-velvetine-cover-zoom-out:hover {
+  & img.wp-block-cover__image-background,
+  img:hover {
+    transform: scale(1);
+  }
+}
+/* Group, Columns and Column */
+.is-style-velvetine-boxshadow,
+.is-style-velvetine-boxshadow-hover:hover {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.12);
+}
+.is-style-velvetine-boxshadow-md {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+.is-style-velvetine-boxshadow-lg {
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+.is-style-velvetine-overflow-hidden {
+  overflow: hidden;
+}
+/* ********** Pagination ********** */
+/* Primary */
+nav.is-style-velvetine-pagination-primary {
+  gap: 1em;
+}
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-alt);
+  background-color: var(--wp--preset--color--primary);
+}
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-velvetine-pagination-primary .wp-block-query-pagination-next,
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-alt);
+}
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-velvetine-pagination-primary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--primary);
+}
+/* Secondary */
+nav.is-style-velvetine-pagination-secondary {
+  gap: 1em;
+}
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-numbers
+  .page-numbers.current {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+  background-color: var(--wp--preset--color--secondary);
+}
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a,
+nav.is-style-velvetine-pagination-secondary .wp-block-query-pagination-next,
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-previous {
+  padding: 6px 14px;
+  border: 1px solid var(--wp--preset--color--border-color);
+}
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-numbers
+  a:hover,
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-next:hover,
+nav.is-style-velvetine-pagination-secondary
+  .wp-block-query-pagination-previous:hover {
+  background-color: var(--wp--preset--color--secondary);
+}
