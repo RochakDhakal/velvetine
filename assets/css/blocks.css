@@ -18,7 +18,7 @@ img,
 /* Button */
 .is-style-velvetine-button-bell .wp-block-button__link.wp-element-button {
   position: relative;
-  padding-left: 56px; /* icon width (50px) + 6px gap */
+  padding-left: 34px;
 }
 
 .is-style-velvetine-button-bell
