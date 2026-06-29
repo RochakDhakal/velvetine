@@ -3,7 +3,7 @@
 
 	<div class="version">
 		<h3><?php esc_html_e( 'Version 1.0.0', 'velvetine' ); ?></h3>
-		<p class="date"><?php esc_html_e( 'Released: June 22, 2026', 'velvetine' ); ?></p>
+		<p class="date"><?php esc_html_e( 'Released: June 29, 2026', 'velvetine' ); ?></p>
 		<ul class="changes">
 			<li><?php esc_html_e( 'Initial Release', 'velvetine' ); ?></li>
 		</ul>

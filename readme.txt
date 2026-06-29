@@ -27,7 +27,7 @@ Velvetine is a modern WordPress block theme designed for fashion, lifestyle, bea
 
 == Changelog ==
 
-= 1.0.0 - JUN 22, 2026 =
+= 1.0.0 - JUN 29, 2026 =
 * Initial release
 
 
@@ -47,6 +47,26 @@ License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
 Source: https://pxhere.com/en/photo/790756
 
+Image 2 for Screenshot, https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/845182
+
+Image 3 for Screenshot, https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/860833
+
+Image 4 for Screenshot, https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/1674990
+
+Image 5 for Screenshot, https://pxhere.com/
+License: CC0 1.0 Universal (CC0 1.0)
+License URL: https://creativecommons.org/publicdomain/zero/1.0/
+Source: https://pxhere.com/en/photo/
+
 Image for Sidebar,  https://pxhere.com/
 License: CC0 1.0 Universal (CC0 1.0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
@@ -55,9 +75,9 @@ Source: https://pxhere.com/en/photo/604504
 Fonts credit and license:
 
 Font: Playfair Display,
-Copyright 2020 The Bodoni Moda Project Authors
-License: http://scripts.sil.org/OFL
-Source: https://github.com/indestructible-type/Bodoni
+Copyright 2017 The Playfair Display Project Authors
+License: https://openfontlicense.org
+Source: https://github.com/clauseggers/Playfair-Display
 
 Font: Jost,
 Copyright 2020 The Jost Project Authors

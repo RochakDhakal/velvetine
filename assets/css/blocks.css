@@ -15,6 +15,29 @@ img,
   a.wp-block-navigation-item__content:hover {
   color: var(--wp--preset--color--secondary) !important;
 }
+/* Button */
+.is-style-velvetine-button-bell .wp-block-button__link.wp-element-button {
+  position: relative;
+  padding-left: 56px; /* icon width (50px) + 6px gap */
+}
+
+.is-style-velvetine-button-bell
+  .wp-block-button__link.wp-element-button:before {
+  content: "";
+  width: var(--wp--preset--font-size--normal);
+  height: var(--wp--preset--font-size--normal);
+  background-color: currentColor;
+  -webkit-mask-image: url(../images/bell.svg);
+  mask-image: url(../images/bell.svg);
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-position: center center;
+  -webkit-mask-position: center center;
+  mask-size: contain; /* ← this was missing */
+  -webkit-mask-size: contain; /* ← and the webkit prefix */
+  position: absolute;
+  left: 16px;
+}
 /* Social Buttons */
 .is-style-velvetine-social-icons-border {
   & li {
@@ -97,20 +120,16 @@ nav.is-style-velvetine-pagination-primary
   border: 1px solid var(--wp--preset--color--border-alt);
   background-color: var(--wp--preset--color--primary);
 }
-nav.is-style-velvetine-pagination-primary
-  .wp-block-query-pagination-numbers
-  a,
+nav.is-style-velvetine-pagination-primary .wp-block-query-pagination-numbers a,
 nav.is-style-velvetine-pagination-primary .wp-block-query-pagination-next,
-nav.is-style-velvetine-pagination-primary
-  .wp-block-query-pagination-previous {
+nav.is-style-velvetine-pagination-primary .wp-block-query-pagination-previous {
   padding: 6px 14px;
   border: 1px solid var(--wp--preset--color--border-alt);
 }
 nav.is-style-velvetine-pagination-primary
   .wp-block-query-pagination-numbers
   a:hover,
-nav.is-style-velvetine-pagination-primary
-  .wp-block-query-pagination-next:hover,
+nav.is-style-velvetine-pagination-primary .wp-block-query-pagination-next:hover,
 nav.is-style-velvetine-pagination-primary
   .wp-block-query-pagination-previous:hover {
   background-color: var(--wp--preset--color--primary);

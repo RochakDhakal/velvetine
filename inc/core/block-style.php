@@ -152,6 +152,13 @@ if ( function_exists( 'register_block_style' ) ) {
 			)
 		);
 		register_block_style(
+			'core/button',
+			array(
+				'name'  => 'velvetine-button-bell',
+				'label' => __( 'Bell Icon', 'velvetine' ),
+			)
+		);
+		register_block_style(
 			'core/post-terms',
 			array(
 				'name'  => 'velvetine-categories-primary',
