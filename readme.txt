@@ -54,7 +54,7 @@ Source: https://pxhere.com/en/photo/604504
 
 Fonts credit and license:
 
-Font: Bodoni Moda,
+Font: Playfair Display,
 Copyright 2020 The Bodoni Moda Project Authors
 License: http://scripts.sil.org/OFL
 Source: https://github.com/indestructible-type/Bodoni

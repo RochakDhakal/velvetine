@@ -194,27 +194,27 @@
         {
           "fontFace": [
             {
-              "fontFamily": "Bodoni Moda",
+              "fontFamily": "Playfair Display",
               "fontStretch": "normal",
               "fontStyle": "normal",
               "fontWeight": "300 400 500 600 700",
               "src": [
-                "file:./assets/fonts/Bodoni_Moda/BodoniModa-VariableFont_opsz,wght.ttf"
+                "file:./assets/fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf"
               ]
             },
             {
-              "fontFamily": "Bodoni Moda",
+              "fontFamily": "Playfair Display",
               "fontStretch": "normal",
               "fontStyle": "italic",
               "fontWeight": "300 400 500 600 700",
               "src": [
-                "file:./assets/fonts/Bodoni_Moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf"
+                "file:./assets/fonts/Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf"
               ]
             }
           ],
-          "fontFamily": "\"Bodoni Moda\", sans-serif",
-          "name": "Bodoni Moda",
-          "slug": "bodoni-moda"
+          "fontFamily": "\"Playfair Display\", sans-serif",
+          "name": "Playfair Display",
+          "slug": "playfair-display"
         },
         {
           "fontFace": [
@@ -361,7 +361,7 @@
       },
       "heading": {
         "typography": {
-          "fontFamily": "var(--wp--preset--font-family--bodoni-moda)",
+          "fontFamily": "var(--wp--preset--font-family--playfair-display)",
           "fontStyle": "normal",
           "fontWeight": "500",
           "lineHeight": "1.5"
