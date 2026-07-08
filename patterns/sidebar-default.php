@@ -7,6 +7,7 @@
  */
 $velvetine_url    = trailingslashit( get_template_directory_uri() );
 $velvetine_images = array(
+	$velvetine_url . 'assets/images/ad.png',
 	$velvetine_url . 'assets/images/testimonial_3.jpg',
 );
 ?>
@@ -20,13 +21,19 @@ $velvetine_images = array(
 <!-- /wp:paragraph -->
 
 <!-- wp:image {"id":1277,"sizeSlug":"full","linkDestination":"none","align":"center","style":{"spacing":{"margin":{"top":"18px","right":"0","bottom":"0","left":"0"}}}} -->
-<figure class="wp-block-image aligncenter size-full" style="margin-top:18px;margin-right:0;margin-bottom:0;margin-left:0"><img src="http://localhost/wp-content/uploads/2026/06/Group-1597884003-1.png" alt="" class="wp-image-1277"/></figure>
+<figure class="wp-block-image aligncenter size-full" style="margin-top:18px;margin-right:0;margin-bottom:0;margin-left:0"><img src="
+<?php
+	echo esc_url( $velvetine_images[0] );
+?>
+" alt="" class="wp-image-1277"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"80px"}}},"layout":{"type":"constrained","contentSize":"100%"}} -->
 <div class="wp-block-group" style="margin-top:80px"><!-- wp:heading {"style":{"typography":{"textAlign":"center"},"spacing":{"padding":{"top":"16px","bottom":"16px"}},"border":{"top":{"color":"var:preset|color|heading-color","width":"3px"},"right":{"width":"0px","style":"none"},"bottom":{"color":"var:preset|color|heading-color","width":"1px"},"left":{"width":"0px","style":"none"}}}} -->
-<h2 class="wp-block-heading has-text-align-center" style="border-top-color:var(--wp--preset--color--heading-color);border-top-width:3px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--heading-color);border-bottom-width:1px;border-left-style:none;border-left-width:0px;padding-top:16px;padding-bottom:16px">Popular Tags</h2>
+<h2 class="wp-block-heading has-text-align-center" style="border-top-color:var(--wp--preset--color--heading-color);border-top-width:3px;border-right-style:none;border-right-width:0px;border-bottom-color:var(--wp--preset--color--heading-color);border-bottom-width:1px;border-left-style:none;border-left-width:0px;padding-top:16px;padding-bottom:16px"><?php
+	esc_html_e('Popular Tags', 'velvetine');
+?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","bottom":"0","left":"0","right":"0"},"margin":{"top":"24px","bottom":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|dark-color"},":hover":{"color":{"text":"var:preset|color|primary"}}}}},"textColor":"dark-color","layout":{"type":"constrained"}} -->
@@ -43,7 +50,7 @@ $velvetine_images = array(
 <div class="wp-block-group has-border-color has-border-color-border-color has-dark-color-color has-text-color has-link-color" style="border-style:solid;border-width:1px;margin-top:24px;margin-bottom:0;padding-top:24px;padding-right:24px;padding-bottom:24px;padding-left:24px"><!-- wp:image {"id":1299,"width":"auto","height":"180px","aspectRatio":"4/3","scale":"cover","sizeSlug":"full","linkDestination":"none","align":"center"} -->
 <figure class="wp-block-image aligncenter size-full is-resized"><img src="
 <?php
-	echo esc_url( $velvetine_images[0] );
+	echo esc_url( $velvetine_images[1] );
 ?>
 " alt="" class="wp-image-1299" style="aspect-ratio:4/3;object-fit:cover;width:auto;height:180px"/></figure>
 <!-- /wp:image -->

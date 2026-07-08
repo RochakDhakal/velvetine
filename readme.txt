@@ -5,7 +5,7 @@ Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-me
 Requires at least: 5.9
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -29,6 +29,10 @@ Velvetine is a modern WordPress block theme designed for fashion, lifestyle, bea
 
 = 1.0.0 - JUN 29, 2026 =
 * Initial release
+
+= 1.0.1 - JUL 8, 2026 =
+* Pattern file escaping function added.
+* Pattern file image link added.
 
 
 
